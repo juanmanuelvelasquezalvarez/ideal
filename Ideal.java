@@ -1,6 +1,6 @@
 package a;
 import java.util.Date;
-@SuppressWarnings({"deprecation","preview"})
+@SuppressWarnings("deprecation")
 public class Ideal implements Comparable<Ideal> {
 	/*Milliseconds from the counting (1st second of 1970 Greenwich)
 	  to the glorious change of millennium: 01/01/2000.
