@@ -4,6 +4,4 @@ Useful information to share github.com/juanmanuelvelasquezalvarez/util
 
 Hay 3 opciones: contar meses: 13 meses de 28 días más la semana añadida si la tiene, contar semanas: 52 semanas o 53 (la adicional) y los días son de 1 a 7, o contar días: de 1 a 364 o 371. Añade no 1 día sino 1 semana cada vez que se acumula (cada 7/1.242189 años) pasando de 364 a 371 días para que los 7 días del calendario gregoriano coincidan con los 7 del calendario ideal. Siendo de 364, sobra 1.242189 días. El año con 1 semana más es redondeado, por ejemplo, al acumular 359 (debe ser entero) semanas: 359×7/1.242189≈2023, el año 2023 del calendario ideal tendría 1 semana más. Este programa (8 lenguajes) convierte una fecha del calendario ideal al calendario gregoriano o viceversa. Al ejecutarlo, halla día, mes y año del calendario ideal equivalente al día en que fue ejecutado. Está en función del periodo de la mujer pero está más en función de un periodo más general: el 4º mandamiento del decálogo bíblico y el 11º del duodecálogo del evangelio vegano: evangelio de los 12.
 
-Información util para compartir github.com/juanmanuelvelasquezalvarez/util
-
 For comments. Para comentarios juanmanuelv@une.net.co
