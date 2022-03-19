@@ -43,7 +43,7 @@ public:
 	//Choose among year, month, week, day of the year/month/week, hour, minute, second or seconds since the start of the new count.
 	//Day, week and month start at 0 internally and here 1 is added.
 	int get(int f) {
-		return f < 1 || f>10 ? 0 : f == 1 ? y : f==7?s/3600:f==8?(s%3600)/60:f==9?s%60:f == 10 ? S : (f == 2 ? d / 28 : f == 3 ? d / 7 : f == 4 ? d : f == 5 ? d % 28 : d % 7) + 1;
+		return f<1||f>10?0:f==1?y:f==7?s/3600:f==8?(s%3600)/60:f==9?s%60:f==10?S:(f==2?d/28:f==3?d/7:f==4?d:f==5?d%28:d%7)+1;
 	}
 	//If this date is previous or posterior than another.
 	int operator-(Ideal i) {
